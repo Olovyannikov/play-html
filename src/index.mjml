@@ -1,0 +1,211 @@
+<mjml>
+    <mj-head>
+        <mj-title>playHTML</mj-title>
+        <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+                 rel="stylesheet"/>
+        <mj-class name="container" width="568px"></mj-class>
+        <mj-style inline="inline">
+            h4 {
+            font-family: Trebuchet MS;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 28px;
+            }
+            .link {
+                color: #13D6C3;
+            }
+
+            .header {
+                color: #0B379B;
+                text-align: center;
+                font-size: 36px;
+                line-height: 42px;
+                margin: 0;
+            }
+            .subheader {
+                color: #FF4B33;
+                font-size: 24px;
+                line-height: 28px;
+            }
+        </mj-style>
+    </mj-head>
+    <mj-body background-color="#f6f6f6">
+        <mj-section>
+            <mj-column width="100%">
+                <mj-text font-family="Roboto, Arial" align="center">
+                    <p>
+                        Если вы не видите данное письмо, перейдите по <a class="link" href="#">ссылке</a>
+                    </p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section background-color="#ffffff">
+            <mj-column width="100%">
+                <mj-image padding-top="12px" width="140px" src="img/logo.png" />
+                <mj-text align="center">
+                    <h1 class="header">
+                        Хотите научиться <br/> web-разработке?
+                    </h1>
+                    <h4 class="subheader">
+                        Приглашаем Вас на бесплатный <br/> вебинар
+                        «Тренды Frontend-разработки <br/> 2020»
+                    </h4>
+                </mj-text>
+            </mj-column>
+            <mj-column width="35%" padding-left="0" padding-right="0">
+                <mj-text padding="0" padding-left="8px" padding-right="8px">
+                    <p style="background-color: #FF4B33; border-radius: 5px;">
+                        <span style="color: white;font-weight: bold;font-size: 36px;line-height: 42px;font-family: Trebuchet MS;text-align: center;display:inline-block;width: 100%;padding-top: 16px;">июнь</span> <br/>
+                        <span style="color: white;font-weight: bold;font-size: 96px;line-height: 111px;font-family:
+                        Trebuchet MS;text-align: center;display:inline-block;width: 100%;">20
+                        </span> <br/>
+                        <span style="color: white;font-weight: bold;font-size: 36px;line-height: 42px;font-family:
+                        Trebuchet MS;text-align: center;display:inline-block;width: 100%;padding-top: 2px;">17:00
+                        </span> <br/>
+                        <span  style="width: 100%; display:block; text-align:center;">
+                        <a href="#"
+                           style="display: inline-block; background-color: #FFB500; text-decoration: none; color:
+                           white; text-align: center;width: 128px;
+        height: 30px;border-style: solid;
+        border-color: #FFB500;
+        border-width:10px 0px 6px 0px;
+        border-radius: 5px;
+font-size: 18px;
+line-height: 21px; margin-top: 16px; margin-bottom: 20px;">На
+                            вебинар</a></span>
+                    </p>
+                </mj-text>
+            </mj-column>
+            <mj-column width="65%" padding-left="0" padding-right="0">
+                    <mj-image padding="0" width="352px" src="img/man.png" />
+            </mj-column>
+        </mj-section>
+
+        <mj-section background-color="#0B379B">
+            <mj-column>
+                <mj-text>
+                    <p style="color: #ffffff;font-size: 18px;line-height: 21px;font-family: Trebuchet MS;">
+                        Мы расскажем все детали о том, с чего начать свой путь в разработке сайтов, и как вырасти в востребованного специалиста. Все вопросы Вы сможете задать спикеру на вебинаре :)
+                    </p>
+                </mj-text>
+                <mj-text padding-bottom="0">
+                <p style="color: #ffffff;
+font-weight: bold;font-size: 30px;line-height: 35px; padding-bottom: 0; margin-bottom: 0;font-family: Trebuchet MS;">
+                    План вебинара:
+                </p>
+            </mj-text>
+                <mj-text>
+                    <p style="font-size: 18px;font-family: Trebuchet MS;
+line-height: 21px; color: white"><span><img style="padding-right: 13px;" src="img/icon-round.png"></span>Кто такой
+                        frontend-разработчик?</p>
+                    <p style="font-size: 18px;font-family: Trebuchet MS;
+line-height: 21px; color: white"><span><img style="padding-right: 13px;" src="img/icon-triangle.png"></span>Какие
+                        навыки
+                        сейчас
+                        востребованы?</p>
+                    <p style="font-size: 18px;font-family: Trebuchet MS;
+line-height: 21px; color: white"><span><img style="padding-right: 13px;" src="img/icon-squad.png"></span>Как
+                        устроиться в
+                        компанию
+                        после
+                        обучения?</p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section padding-top="0" padding-bottom="0">
+            <mj-column background-color="white">
+                <mj-text align="center">
+                    <h4>Ведущий вебинара</h4>
+                </mj-text>
+                <mj-image align="center" width="88" src="img/tamada.png" alt="Ведущий Иван Васильев"/>
+                <mj-text align="center">
+                    <p style="font-size: 18px; line-height: 24px; font-family: Trebuchet MS;">
+                        <b>Иван Васильев</b> <br>
+                        Frontend-разработчик
+                        компании Cats Development
+                    </p>
+                </mj-text>
+                <mj-button href="#" background-color="#FF4B33" font-size="18px">Зарегистрироваться на
+                    вебинар</mj-button>
+                <mj-image align="center" src="img/proposal.png" width="278" alt="Просто картинка"/>
+            </mj-column>
+        </mj-section>
+        <mj-section padding-top="0" padding-bottom="0">
+            <mj-column background-color="white">
+            <mj-text align="center">
+                <h4 style="color:#13D6C3; font-size: 30px;
+line-height: 35px; font-family: 'Trebuchet MS';">
+                    Среди участников вебинара
+                    будут разыграны ценные призы!
+                </h4>
+            </mj-text>
+                <mj-button href="#" background-color="#FF4B33" font-size="18px">Зарегистрироваться</mj-button>
+           <mj-text font-size="18px" font-family="Trebuchet MS" align="center" padding-top="14px" padding-bottom="48px">
+               Количество мест на вебинаре ограничено.
+           </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section padding-top="0" background-color="white">
+            <mj-column font>
+                <mj-text font-size="18px" font-family="Trebuchet MS" font-weight="bold">
+                    Мы в социальных сетях
+                </mj-text>
+                <mj-social align="left" icon-size="24px" mode="horizontal">
+                    <mj-social-element name="fb" href="#" src="img/facebook.png">
+                    </mj-social-element>
+                    <mj-social-element name="ig" href="#" src="img/inst.png">
+                    </mj-social-element>
+                    <mj-social-element  name="youtube" href="#" src="img/youtube.png">
+                    </mj-social-element>
+                    <mj-social-element  name="telegram" href="#" src="img/telegram.png">
+                    </mj-social-element>
+                    <mj-social-element  name="vk" href="#" src="img/vk.png">
+                    </mj-social-element>
+                </mj-social>
+                <mj-text font-size="18px" font-family="Trebuchet MS" font-weight="bold">
+                        Свяжитесь с нами
+                    <a style="font-size: 14px;line-height: 16px; color: #13D6C3;font-family: Trebuchet MS; display:
+                    inline-block; padding-top: 8px;" href="#">study@htmlplay.com</a> <br>
+                    <a style="font-size: 14px;line-height: 16px; color: #13D6C3; font-family: Trebuchet MS; display:
+                    inline-block; padding-top: 8px;" href="#">8-800-690-76-68</a>
+                </mj-text>
+            </mj-column>
+            <mj-column>
+                <mj-text font-size="18px" font-family="Trebuchet MS" font-weight="bold">
+                    Полезные ссылки
+                    <a href="#" style="display: inline-block;
+                    padding-top: 16px;font-size: 14px;line-height: 16px;color: #141414;font-family: Trebuchet MS;
+                    padding-bottom: 8px;
+; font-weight: normal;"> Бесплатные вебинары</a> <br>
+                    <a href="#" style="display: inline-block;font-size: 14px;line-height: 16px;color: #141414;font-family: Trebuchet MS;
+ padding-bottom: 8px; font-weight: normal;">Обучающие курсы</a> <br>
+                    <a href="#" style="display: inline-block;font-size: 14px;line-height: 16px;color: #141414;font-family: Trebuchet MS;
+ padding-bottom: 8px; font-weight: normal;">Тесты</a> <br>
+                    <a href="#" style="display: inline-block;font-size: 14px;line-height: 16px;color: #141414;font-family: Trebuchet MS;
+ padding-bottom: 8px; font-weight: normal;">Наш блог</a> <br>
+                    <a href="#" style="display: inline-block;font-size: 14px;line-height: 16px;color: #141414;font-family: Trebuchet MS;
+ padding-bottom: 8px; font-weight: normal;">Истории студентов</a> <br>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section>
+            <mj-column>
+                <mj-text font-size="11px" font-family="Trebuchet MS" color="#828282" align="justify">
+                    Вы получили это письмо, так как являетесь пользователем портала HTMLPlay.
+                    Рассылка производится в соответствии с пользовательским соглашением.
+                    Если вы не хотите получать рассылку, вы можете <a style="color: #828282" href="#">отписаться</a>
+                    или <a style="color:#828282;"
+                        href="#">настроить параметры</a>. <br> <br>
+
+
+                    Если письмо отображается некорректно или вы хотите им поделиться, <a style="color: #828282"
+                                                                                         href="#">жмите
+                    сюда</a>.
+
+                </mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
