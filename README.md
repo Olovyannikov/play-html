@@ -11,5 +11,5 @@
 
 
 You can also:
-  - Check result by link in description;
+  - Check result by link in description or [HERE](https://olovyannikov.github.io/play-html/dist/index.html);
   - Getting pull-request for project;
