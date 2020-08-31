@@ -66,7 +66,7 @@
                 </mj-text>
             </mj-column>
             <mj-column width="230px">
-                <mj-image padding="0" width="175px" src="img/standing.png" alt="Картинка стоящего мужика"/>
+                <mj-image padding="0" width="175px" src="https://olovyannikov.github.io/play-html/dist/img/standing.png" alt="Картинка стоящего мужика"/>
             </mj-column>
         </mj-section>
         <mj-section>
@@ -94,10 +94,11 @@ line-height: 35px; text-align: center; color: #FF4B33;">
             </mj-column>
 
         </mj-section>
-        <mj-section width="100%" padding="0">
-                <mj-column width="168px" padding="0"  align="left">
+        <mj-section padding="0">
+                <mj-column width="33%" padding="0" padding-right="16px">
                     <mj-image align="center" width="88"
-                              src="https://olovyannikov.github.io/play-html/dist/img/tamada1.png" alt="Ведущий Иван Васильев"/>
+                              src="https://raw.githubusercontent.com/Olovyannikov/play-html/master/dist/img/tamada1.png"
+                              alt="Ведущий Иван Васильев"/>
                     <mj-text align="center" padding="0">
                         <p style="font-size: 18px; line-height: 24px; font-family: Trebuchet MS;">
                             <b>Антон Громов</b> <br>
@@ -106,9 +107,9 @@ line-height: 35px; text-align: center; color: #FF4B33;">
                         </p>
                     </mj-text>
                 </mj-column>
-                <mj-column width="168px" padding="0">
+                <mj-column width="33%" padding="0">
                     <mj-image align="center" width="88"
-                              src="https://olovyannikov.github.io/play-html/dist/img/tamada2.png" alt="Ведущий Иван Васильев"/>
+                              src="https://raw.githubusercontent.com/Olovyannikov/play-html/master/dist/img/tamada2.png" alt="Ведущий Иван Васильев"/>
                     <mj-text align="center" padding="0">
                         <p style="font-size: 18px; line-height: 24px; font-family: Trebuchet MS;">
                             <b>Илья Раменский</b> <br>
@@ -116,28 +117,164 @@ line-height: 35px; text-align: center; color: #FF4B33;">
                         </p>
                     </mj-text>
                 </mj-column>
-                <mj-column width="168px" padding="0">
+                <mj-column width="33%" padding="0">
                     <mj-image align="center" width="88"
-                              src="https://olovyannikov.github.io/play-html/dist/img/tamada3.png" alt="Ведущий Иван Васильев"/>
+                              src="https://raw.githubusercontent.com/Olovyannikov/play-html/master/dist/img/tamada3.png" alt="Ведущий Иван Васильев"/>
                     <mj-text align="center" padding="0">
                         <p style="font-size: 18px; line-height: 24px; font-family: Trebuchet MS;">
                             <b>Игнатий Чубаров</b> <br>
                             Преподаватель IT в РУИТ
                         </p>
                     </mj-text>
-                </mj-column>
             </mj-column>
         </mj-section>
         <mj-section>
             <mj-column>
+                <mj-text font-family="Trebuchet MS" font-size="18px" line-height="21px" color="#141414">
+                    Пока вы ждёте начала курса, вам могут быть интересны вебинары на разные темы, которые проходят на платформе ежедневно.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section padding="0">
+            <mj-column>
+                <mj-text>
+                    <h4 style="color: #0B379B;font-size: 30px;line-height: 35px;font-family: Trebuchet MS;
+                    text-align:center; margin: 0 0 24px;">
+                        Другие мероприятия
+                    </h4>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section padding="0">
+            <mj-column width="100%" padding="0">
+                <mj-text padding-top="0" padding-bottom="16px" padding-left="20px" padding-right="20px">
+                    <p style="border-radius: 15px; border: 1px solid #02BAD3; margin: 0;">
+                        <span style="display:inline-block; padding: 24px 0 8px 16px; color: #02BAD3; font-family: Trebuchet MS;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;">Тренды
+                            frontend-разработки</span>
+                        <br>
+                        <span style="display:inline-block; font-weight: bold;
+font-size: 18px;
+line-height: 21px; padding-left: 16px; padding-bottom: 16px;font-family: Trebuchet MS;">20 июня, 17:00</span> <br>
+                        <span style="display:inline-block;font-size: 18px;
+line-height: 21px;font-family: Trebuchet MS; padding-bottom: 24px; padding-left: 16px;">Самые многообещающие
+                            направления развития фронтенда в 2020 году</span>
+                    </p>
+                  </mj-text>
+            </mj-column>
+            <mj-column width="100%" padding="0">
+                <mj-text padding-top="0" padding-bottom="16px" padding-left="20px" padding-right="20px">
+                    <p style="border-radius: 15px; border: 1px solid #02BAD3; margin: 0;">
+                        <span style="display:inline-block; padding: 24px 0 8px 16px; color: #02BAD3; font-family: Trebuchet MS;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;">Figma vs Photoshop</span>
+                        <br>
+                        <span style="display:inline-block; font-weight: bold;
+font-size: 18px;
+line-height: 21px; padding-left: 16px; padding-bottom: 16px;font-family: Trebuchet MS;">21 июня, 17:00</span> <br>
+                        <span style="display:inline-block;font-size: 18px;
+line-height: 21px;font-family: Trebuchet MS; padding-bottom: 24px; padding-left: 16px;">Почему давно пора отказаться от последнего?</span>
+                    </p>
+                </mj-text>
+            </mj-column>
+            <mj-column width="100%" padding="0">
+                <mj-text padding-top="0" padding-bottom="16px" padding-left="20px" padding-right="20px">
+                    <p style="border-radius: 15px; border: 1px solid #02BAD3; margin: 0;">
+                        <span style="display:inline-block; padding: 24px 0 8px 16px; color: #02BAD3; font-family: Trebuchet MS;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;">Что такое Git и как его использовать?</span>
+                        <br>
+                        <span style="display:inline-block; font-weight: bold;
+font-size: 18px;
+line-height: 21px; padding-left: 16px; padding-bottom: 16px;font-family: Trebuchet MS;">22 июня, 17:00</span> <br>
+                        <span style="display:inline-block;font-size: 18px;
+line-height: 21px;font-family: Trebuchet MS; padding-bottom: 24px; padding-left: 16px;">Разберем тонкости использования самой популярной системы контроля версий.</span>
+                    </p>
+                </mj-text>
+            </mj-column>
+            <mj-column width="100%">
+                <mj-button href="https://olovyannikov.github.io/play-html/dist/welcome.html"
+                           background-color="#FF4B33" font-size="18px">
+                    Все мероприятия
+                </mj-button>
+            </mj-column>
+        </mj-section>
+        <mj-section>
+            <mj-image width="274" src="img/kpintch.png" alt="Просто катинка"/>
+        </mj-section>
+        <mj-section padding-top="0" background-color="white">
+            <mj-column font>
+                <mj-text font-size="18px" font-family="Trebuchet MS" font-weight="bold">
+                    Мы в социальных сетях
+                </mj-text>
+                <mj-social align="left" icon-size="24px" mode="horizontal">
+                    <mj-social-element name="fb" href="#" src="https://olovyannikov.github.io/play-html/dist/img/facebook.png">
+                    </mj-social-element>
+                    <mj-social-element name="ig" href="#" src="https://olovyannikov.github.io/play-html/dist/img/inst.png">
+                    </mj-social-element>
+                    <mj-social-element  name="youtube" href="#" src="https://olovyannikov.github.io/play-html/dist/img/youtube.png">
+                    </mj-social-element>
+                    <mj-social-element  name="telegram" href="#" src="https://olovyannikov.github.io/play-html/dist/img/telegram.png">
+                    </mj-social-element>
+                    <mj-social-element  name="vk" href="#" src="https://olovyannikov.github.io/play-html/dist/img/vk.png">
+                    </mj-social-element>
+                </mj-social>
+                <mj-text font-size="18px" font-family="Trebuchet MS" font-weight="bold">
+                    Свяжитесь с нами
+                    <a style="font-size: 14px;line-height: 16px; color: #13D6C3;font-family: Trebuchet MS; display:
+                    inline-block; padding-top: 8px;" href="#">study@htmlplay.com</a> <br>
+                    <a style="font-size: 14px;line-height: 16px; color: #13D6C3; font-family: Trebuchet MS; display:
+                    inline-block; padding-top: 8px;" href="#">8-800-690-76-68</a>
+                </mj-text>
+            </mj-column>
+            <mj-column>
+                <mj-text font-size="18px" font-family="Trebuchet MS" font-weight="bold">
+                    Полезные ссылки
+                    <br><a href="#" style="display: inline-block;
+                    padding-top: 16px;font-size: 14px;line-height: 16px;color: #141414;font-family: Trebuchet MS;
+                    padding-bottom: 8px;
+; font-weight: normal;"> Бесплатные вебинары</a> <br>
+                    <a href="https://olovyannikov.github.io/play-html/dist/promo.html"
+                       style="display: inline-block;font-size: 14px;line-height: 16px;color: #141414;font-family: Trebuchet MS;
+ padding-bottom: 8px; font-weight: normal;">Обучающие курсы</a> <br>
+                    <a href="#" style="display: inline-block;font-size: 14px;line-height: 16px;color: #141414;font-family: Trebuchet MS;
+ padding-bottom: 8px; font-weight: normal;">Тесты</a> <br>
+                    <a href="#" style="display: inline-block;font-size: 14px;line-height: 16px;color: #141414;font-family: Trebuchet MS;
+ padding-bottom: 8px; font-weight: normal;">Наш блог</a> <br>
+                    <a href="#" style="display: inline-block;font-size: 14px;line-height: 16px;color: #141414;font-family: Trebuchet MS;
+ padding-bottom: 8px; font-weight: normal;">Истории студентов</a> <br>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section padding="0">
+            <mj-column width="100%" padding="0">
+                <mj-divider border-width="1px" border-style="solid" border-color="lightgrey" />
 
             </mj-column>
         </mj-section>
         <mj-section>
             <mj-column>
+                <mj-text font-size="11px" font-family="Trebuchet MS" color="#828282" align="justify">
+                    Вы получили это письмо, так как являетесь пользователем портала HTMLPlay.
+                    Рассылка производится в соответствии с пользовательским соглашением.
+                    Если вы не хотите получать рассылку, вы можете <a style="color: #828282" href="#">отписаться</a>
+                    или <a style="color:#828282;"
+                           href="#">настроить параметры</a>. <br> <br>
 
+
+                    Если письмо отображается некорректно или вы хотите им поделиться, <a style="color: #828282"
+                                                                                         href="#">жмите
+                    сюда</a>.
+                </mj-text>
             </mj-column>
         </mj-section>
-
     </mj-body>
 </mjml>
