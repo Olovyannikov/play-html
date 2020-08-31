@@ -1,1 +1,143 @@
-<mjml></mjml>
+<mjml>
+    <mj-head>
+        <mj-title>playHTML</mj-title>
+        <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+                 rel="stylesheet"/>
+        <mj-style inline="inline">
+            h4 {
+            font-family: Trebuchet MS;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 28px;
+            }
+        </mj-style>
+    </mj-head>
+    <mj-body>
+        <mj-section>
+            <mj-column>
+                <mj-image  width="186px" src="https://olovyannikov.github.io/play-html/dist/img/logo.png" />
+            </mj-column>
+        </mj-section>
+        <mj-section padding-bottom="0">
+            <mj-column>
+                <mj-navbar base-url="https://gitub.com/Olovyannikov">
+                    <mj-navbar-link padding-right="59px" font-family="Trebuchet MS, Arial, sans-serif"
+                                    href="https://olovyannikov.github.io/play-html/dist/index.html"
+                                    color="#FF4B33"
+                                     font-weight="bold"
+                                    font-size="18px">Курсы
+                    </mj-navbar-link>
+                    <mj-navbar-link padding-right="59px" font-family="Trebuchet MS, Arial, sans-serif"
+                                    href="/try-it-live"
+                                    color="#0B379B"
+                                    font-weight="bold"
+                                    font-size="18px">Вебинары
+                    </mj-navbar-link>
+                    <mj-navbar-link padding-right="59px" font-family="Trebuchet MS, Arial, sans-serif" href="/templates"
+                                    color="#02BAD3"
+                                    font-weight="bold"
+                                    font-size="18px">О
+                        школе</mj-navbar-link>
+                    <mj-navbar-link font-family="Trebuchet MS, Arial, sans-serif" href="/components" color="#FFC81A"
+                                    font-weight="bold"
+                                    font-size="18px">Распродажа
+                    </mj-navbar-link>
+                </mj-navbar>
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="#0B379B" padding="0">
+            <mj-column width="363px" padding="0">
+                <mj-text padding-top="24px" padding-left="19px"
+                         padding-bottom="24px"
+                         color="#13D6C3"
+                         font-family="Trebuchet MS, Arial, sans-serif"
+                         font-size="18px"
+                         line-height="21px">
+                    Здравствуйте, {{name}}
+                </mj-text>
+                <mj-text padding="0" padding-left="19px" color="#FFFFFF" font-family="Trebuchet MS, Arial, sans-serif"
+                         font-size="18px"
+                         line-height="21px">
+                    Благодарим вас за регистрацию на курс «Начальный html+css».
+                    <br><br>
+                    Курс стартует 1 июля в 17.00 по московскому времени.
+                    Письма со ссылками для входа в кабинет придут на указанную почту за день до старта курса.
+                </mj-text>
+            </mj-column>
+            <mj-column width="230px">
+                <mj-image padding="0" width="175px" src="img/standing.png" alt="Картинка стоящего мужика"/>
+            </mj-column>
+        </mj-section>
+        <mj-section>
+            <mj-column>
+                <mj-text font-family="Trebuchet MS" font-size="18px" line-height="21px" color="#141414">
+                    <h4 style="font-size: 30px;
+line-height: 35px; text-align: center; color: #FF4B33;">
+                        Что вас ждет на курсе
+                    </h4>
+                    Вы будете изучать теорию и методику на примере учебного проекта, который разработали наши эксперты. А применить полученные знания на практике вы сможете, выполняя задания по личному проекту.
+                    <br><br>
+                    В этом вам будет помогать наставник - опытный специалист, который проверит домашние задания и поделится секретами мастерства. А если у вас останутся вопросы, наставник сможет ответить на них на консультации.
+                    <br><br>
+                    После завершения курса вам нужно будет подготовить свой проект к защите — убедиться, что он реализован в соответствии с техническим заданием.
+                    <br><br>
+                    Желаем вам продуктивной работы на интенсиве и успешной защиты. У вас всё получится, мы в вас верим!
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section>
+            <mj-column width="100%">
+                <mj-text color="#13D6C3" font-size="30px" line-height="35px" align="center">
+                    Ведущие курса
+                </mj-text>
+            </mj-column>
+
+        </mj-section>
+        <mj-section width="100%" padding="0">
+                <mj-column width="168px" padding="0"  align="left">
+                    <mj-image align="center" width="88"
+                              src="https://olovyannikov.github.io/play-html/dist/img/tamada1.png" alt="Ведущий Иван Васильев"/>
+                    <mj-text align="center" padding="0">
+                        <p style="font-size: 18px; line-height: 24px; font-family: Trebuchet MS;">
+                            <b>Антон Громов</b> <br>
+                            Фронтенд-разработчик
+                            в Cats Development
+                        </p>
+                    </mj-text>
+                </mj-column>
+                <mj-column width="168px" padding="0">
+                    <mj-image align="center" width="88"
+                              src="https://olovyannikov.github.io/play-html/dist/img/tamada2.png" alt="Ведущий Иван Васильев"/>
+                    <mj-text align="center" padding="0">
+                        <p style="font-size: 18px; line-height: 24px; font-family: Trebuchet MS;">
+                            <b>Илья Раменский</b> <br>
+                            Team Lead в Lizard Software
+                        </p>
+                    </mj-text>
+                </mj-column>
+                <mj-column width="168px" padding="0">
+                    <mj-image align="center" width="88"
+                              src="https://olovyannikov.github.io/play-html/dist/img/tamada3.png" alt="Ведущий Иван Васильев"/>
+                    <mj-text align="center" padding="0">
+                        <p style="font-size: 18px; line-height: 24px; font-family: Trebuchet MS;">
+                            <b>Игнатий Чубаров</b> <br>
+                            Преподаватель IT в РУИТ
+                        </p>
+                    </mj-text>
+                </mj-column>
+            </mj-column>
+        </mj-section>
+        <mj-section>
+            <mj-column>
+
+            </mj-column>
+        </mj-section>
+        <mj-section>
+            <mj-column>
+
+            </mj-column>
+        </mj-section>
+
+    </mj-body>
+</mjml>
