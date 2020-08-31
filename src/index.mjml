@@ -3,7 +3,6 @@
         <mj-title>playHTML</mj-title>
         <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
                  rel="stylesheet"/>
-        <mj-class name="container" width="568px"></mj-class>
         <mj-style inline="inline">
             h4 {
             font-family: Trebuchet MS;
@@ -54,6 +53,8 @@
                     </h4>
                 </mj-text>
             </mj-column>
+        </mj-section>
+        <mj-section>
             <mj-column width="35%" padding-left="0" padding-right="0">
                 <mj-text padding="0" padding-left="8px" padding-right="8px">
                     <p style="background-color: #FF4B33; border-radius: 5px;">
@@ -65,7 +66,7 @@
                         Trebuchet MS;text-align: center;display:inline-block;width: 100%;padding-top: 2px;">17:00
                         </span> <br/>
                         <span  style="width: 100%; display:block; text-align:center;">
-                        <a href="#"
+                        <a href="https://olovyannikov.github.io/play-html/dist/welcome.html"
                            style="display: inline-block; background-color: #FFB500; text-decoration: none; color:
                            white; text-align: center;width: 128px;
         height: 30px;border-style: solid;
@@ -127,7 +128,7 @@ line-height: 21px; color: white"><span><img style="padding-right: 13px;" src="ht
                         компании Cats Development
                     </p>
                 </mj-text>
-                <mj-button href="#" background-color="#FF4B33" font-size="18px">Зарегистрироваться на
+                <mj-button href="https://olovyannikov.github.io/play-html/dist/welcome.html" background-color="#FF4B33" font-size="18px">Зарегистрироваться на
                     вебинар</mj-button>
                 <mj-image align="center" src="https://olovyannikov.github.io/play-html/dist/img/proposal.png" width="278" alt="Просто картинка"/>
             </mj-column>
@@ -141,7 +142,7 @@ line-height: 35px; font-family: 'Trebuchet MS';">
                     будут разыграны ценные призы!
                 </h4>
             </mj-text>
-                <mj-button href="#" background-color="#FF4B33" font-size="18px">Зарегистрироваться</mj-button>
+                <mj-button href="https://olovyannikov.github.io/play-html/dist/welcome.html" background-color="#FF4B33" font-size="18px">Зарегистрироваться</mj-button>
            <mj-text font-size="18px" font-family="Trebuchet MS" align="center" padding-top="14px" padding-bottom="48px">
                Количество мест на вебинаре ограничено.
            </mj-text>
@@ -175,11 +176,12 @@ line-height: 35px; font-family: 'Trebuchet MS';">
             <mj-column>
                 <mj-text font-size="18px" font-family="Trebuchet MS" font-weight="bold">
                     Полезные ссылки
-                    <a href="#" style="display: inline-block;
+                    <br><a href="#" style="display: inline-block;
                     padding-top: 16px;font-size: 14px;line-height: 16px;color: #141414;font-family: Trebuchet MS;
                     padding-bottom: 8px;
 ; font-weight: normal;"> Бесплатные вебинары</a> <br>
-                    <a href="#" style="display: inline-block;font-size: 14px;line-height: 16px;color: #141414;font-family: Trebuchet MS;
+                    <a href="https://olovyannikov.github.io/play-html/dist/promo.html"
+                       style="display: inline-block;font-size: 14px;line-height: 16px;color: #141414;font-family: Trebuchet MS;
  padding-bottom: 8px; font-weight: normal;">Обучающие курсы</a> <br>
                     <a href="#" style="display: inline-block;font-size: 14px;line-height: 16px;color: #141414;font-family: Trebuchet MS;
  padding-bottom: 8px; font-weight: normal;">Тесты</a> <br>
