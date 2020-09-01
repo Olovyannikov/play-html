@@ -1,1 +1,232 @@
-<mjml></mjml>
+<mjml>
+    <mj-head>
+        <mj-title>playHTML</mj-title>
+        <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+        />
+        <mj-style>
+            .rounded {
+            display: inline-table;
+                border-radius: 10px 0 0 0;
+            font-family: Trebuchet MS;
+            font-weight: bold;
+            font-size: 36px;
+            line-height: 42px;
+            text-align: justify;
+            color: #FFFFFF;
+            width: 294px;
+            }
+            .rounded span {
+                display: inline-block;
+            }
+            h2 {
+            font-family: Trebuchet MS;
+            font-size: 24px;
+            line-height: 28px;
+            color: #141414;
+            margin: 0;
+            }
+            .course-name {
+            font-family: 'Trebuchet MS', Arial, sans-serif;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 21px;
+            text-align: center;
+            margin: 0 auto;
+            }
+            .strike {
+            font-weight: normal;
+            padding-right: 20px;
+            font-size: 18px;
+            line-height: 21px;
+            font-family: 'Roboto', Arial, sans-serif;
+            color: #828282
+            }
+
+            .non-strike {
+            margin: 16px 0 0 0;
+            font-weight: bold;
+            font-family: Trebuchet MS;
+            font-size: 18px;
+            line-height: 21px;
+            text-align: center;
+            color: #FF4B33;
+            }
+            .margin-mobile {
+            border-radius: 0 10px 0 0;
+            margin: 0;
+            background-color: #FFFFFF;
+            padding-bottom: 16px;
+            }
+            @media (max-width: 480px) {
+            .rounded {
+            width: 93%;
+            margin: 0 16px;
+                border-radius: 10px 10px 0 0;
+            }
+            .margin-mobile {
+                border-radius: 0;
+                margin: 0 16px;
+            }
+            }
+        </mj-style>
+    </mj-head>
+    <mj-body background-color="#F6F6F6">
+        <mj-section>
+            <mj-column width="328px" padding="0">
+                <mj-image  width="140px"
+                           padding-left="16px"
+                           padding-right="0"
+                           padding-top="16px"
+                           align="left"
+                           src="https://olovyannikov.github.io/play-html/dist/img/logo.png" />
+            </mj-column>
+            <mj-column width="78px" padding="0">
+                <mj-text padding="0" align="center" font-size="11px" font-family="Trebuchet MS" padding-top="20px">
+                    Мы в соцсетях:
+                </mj-text>
+            </mj-column>
+            <mj-column width="180px" padding="0">
+                <mj-social padding="10px 0 0 0" align="center" icon-size="24px" mode="horizontal">
+                    <mj-social-element name="fb" href="#" src="https://olovyannikov.github.io/play-html/dist/img/facebook.png">
+                    </mj-social-element>
+                    <mj-social-element name="ig" href="#" src="https://olovyannikov.github.io/play-html/dist/img/inst.png">
+                    </mj-social-element>
+                    <mj-social-element  name="youtube" href="#" src="https://olovyannikov.github.io/play-html/dist/img/youtube.png">
+                    </mj-social-element>
+                    <mj-social-element  name="telegram" href="#" src="https://olovyannikov.github.io/play-html/dist/img/telegram.png">
+                    </mj-social-element>
+                    <mj-social-element  name="vk" href="#" src="https://olovyannikov.github.io/play-html/dist/img/vk.png">
+                    </mj-social-element>
+                </mj-social>
+            </mj-column>
+        </mj-section>
+        <mj-section padding="0">
+            <mj-column>
+                <mj-text padding="0 0 0 0px" align="center">
+                    <p class="paragraph rounded"
+                    style="background-color:#FF4B33; margin: 0 auto;">
+                        <span style="padding: 32px 0 0 32px">
+                            АКЦИЯ
+                        </span> <br>
+                        <span style="font-size: 28px;
+line-height: 33px; padding-left: 32px; padding-bottom: 24px;padding-right: 50px;">на наши курсы</span><br>
+                        <span style="font-size: 28px;
+line-height: 33px;padding-left: 32px;padding-bottom: 8px;">скидка</span><br>
+                        <span style="font-size: 56px;
+line-height: 68px;padding-left: 26px; padding-bottom: 31px;">20%</span><span style="padding-left: 11px;font-size: 18px;
+line-height: 21px; ">до конца <br>июня</span>
+                    </p>
+                </mj-text>
+            </mj-column>
+            <mj-column padding="0">
+                <mj-text align="center" padding="0">
+                    <p class="margin-mobile">
+                    <img src="img/party.png" width="284" alt="">
+                    </p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section padding-bottom="0" padding-top="0" background-color="#F6F6F6">
+            <mj-column>
+                <mj-text align="center" background-color="#FFFFFF" padding="0">
+                    <h2 class="margin-mobile" style="background-color:#FFFFFF;">Курсы, участвующие в акции</h2>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section padding-top="0" padding-bottom="0" background-color="#F6F6F6">
+            <mj-column width="50%">
+                <mj-text align="center" padding="0">
+                <p class="margin-mobile">
+                <img src="img/logo_css.png" width="165">
+                </p>
+                    <p class="course-name margin-mobile" style="text-align: center">
+                        Html+css начальный
+                    </p>
+                    <p class="non-strike margin-mobile">
+                     <strike class="strike">15 000 руб.</strike> 12 000 руб.
+                        <br><br>
+
+                        <a href="#"
+                           style="display: inline-block;background-color: #0B379B; color: #FFFFFF;
+                       border-radius: 5px;
+                       padding:8px 17px; font-size: 18px; line-height: 21px; text-decoration:none; font-family:
+                       'Trebuchet MS',
+                       Arial, sans-serif;">Записаться на
+                            курс</a>
+                    </p>
+                </mj-text>
+            </mj-column>
+                <mj-column width="50%">
+                    <mj-text align="center" padding="0">
+                        <p class="margin-mobile">
+                            <img src="img/logo_sass.png" width="165">
+                        </p>
+                        <p class="course-name margin-mobile" style="text-align: center">
+                            Html+css начальный
+                        </p>
+                        <p class="non-strike margin-mobile">
+                            <strike class="strike">20 000 руб.</strike> 16 000 руб.
+                            <br><br>      <a href="#"
+                               style="display: inline-block;background-color: #0B379B; color: #FFFFFF;
+                       border-radius: 5px;
+                       padding:8px 17px; font-size: 18px; line-height: 21px; text-decoration:none; font-family:
+                       'Trebuchet MS',
+                       Arial, sans-serif;">Записаться на
+                                курс</a>
+                        </p>
+                    </mj-text>
+                </mj-column>
+        </mj-section>
+        <mj-section padding-top="0" padding-bottom="0" background-color="#F6F6F6">
+            <mj-column width="50%">
+                <mj-text align="center" padding="0">
+                    <p class="margin-mobile">
+                        <img src="img/logo_psd.png" width="165">
+                    </p>
+                    <p class="course-name margin-mobile" style="text-align: center">
+                        Html+css начальный
+                    </p>
+                    <p class="non-strike margin-mobile">
+                        <strike class="strike">15 000 руб.</strike> 12 000 руб.
+                        <br><br> <a href="#"
+                           style="display: inline-block;background-color: #0B379B; color: #FFFFFF;
+                       border-radius: 5px;
+                       padding:8px 17px; font-size: 18px; line-height: 21px; text-decoration:none; font-family:
+                       'Trebuchet MS',
+                       Arial, sans-serif;">Записаться на
+                            курс</a>
+                    </p>
+
+                </mj-text>
+            </mj-column>
+            <mj-column width="50%">
+                <mj-text align="center" padding="0">
+                    <p class="margin-mobile">
+                        <img src="img/logo_js.png" width="165">
+                    </p>
+                    <p class="course-name margin-mobile" style="text-align: center">
+                        Html+css начальный
+                    </p>
+                    <p class="non-strike margin-mobile">
+                        <strike class="strike">20 000 руб.</strike> 16 000 руб.
+                        <br><br>  <a href="#"
+                           style="display: inline-block;background-color: #0B379B; color: #FFFFFF;
+                       border-radius: 5px;
+                       padding:8px 17px; font-size: 18px; line-height: 21px; text-decoration:none; font-family:
+                       'Trebuchet MS',
+                       Arial, sans-serif;">Записаться на
+                            курс</a>
+                    </p>
+
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section padding="0" background-color="#F6F6F6">
+            <mj-column>
+                <mj-text padding="0" align="center">
+                <p class="margin-mobile" style="background-color: #FFFFFF; border-radius: 0 0 10px 10px"> </p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
