@@ -4,6 +4,7 @@
         <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
         />
         <mj-style>
+
             .rounded {
             display: inline-table;
                 border-radius: 10px 0 0 0;
@@ -70,7 +71,7 @@
             }
         </mj-style>
     </mj-head>
-    <mj-body background-color="#F6F6F6">
+    <mj-body background-color="#F6F6F6" width="568px">
         <mj-section>
             <mj-column width="328px" padding="0">
                 <mj-image  width="140px"
@@ -100,7 +101,7 @@
                 </mj-social>
             </mj-column>
         </mj-section>
-        <mj-section padding="0">
+        <mj-section padding="0" background-color="transparent">
             <mj-column>
                 <mj-text padding="0 0 0 0px" align="center">
                     <p class="paragraph rounded"
@@ -118,18 +119,15 @@ line-height: 21px; ">до конца <br>июня</span>
                     </p>
                 </mj-text>
             </mj-column>
-            <mj-column padding="0">
-                <mj-text align="center" padding="0">
-                    <p class="margin-mobile">
-                    <img src="img/party.png" width="284" alt="">
-                    </p>
-                </mj-text>
+            <mj-column background-color="#ffffff">
+                <mj-image padding="0" padding-top="16px" src="img/party.png" width="284"/>
             </mj-column>
+            </mj-wrapper>
         </mj-section>
         <mj-section padding-bottom="0" padding-top="0" background-color="#F6F6F6">
             <mj-column>
                 <mj-text align="center" background-color="#FFFFFF" padding="0">
-                    <h2 class="margin-mobile" style="background-color:#FFFFFF;">Курсы, участвующие в акции</h2>
+                    <h2 class="margin-mobile" style="background-color:#FFFFFF; padding-top: 32px;">Курсы, участвующие в акции</h2>
                 </mj-text>
             </mj-column>
         </mj-section>
@@ -221,10 +219,281 @@ line-height: 21px; ">до конца <br>июня</span>
                 </mj-text>
             </mj-column>
         </mj-section>
+        <mj-section padding="0" background-color="#F6F6F6" padding-bottom="24px">
+            <mj-column>
+                <mj-text padding="0" align="center">
+                    <p class="margin-mobile" style="background-color: #FFFFFF; border-radius: 0 0 10px 10px"> </p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section padding="0" background-color="#F6F6F6">
+            <mj-column >
+                <mj-text padding="0" align="center">
+                    <p class="margin-mobile" style="background-color: #FFFFFF; border-radius: 10px 10px 0 0;margin: 0;"> </p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section padding="0">
+            <mj-column>
+                <mj-text align="center" padding="0">
+                    <h2 class="margin-mobile" style="background-color:#FFFFFF;margin: 0;">Отзывы о курсе</h2>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section padding="0" background-color="#FFFFFF">
+            <mj-column width="160px" padding="0" background-color="#FFFFFF">
+                <mj-image src="img/anna.png" width="107px"  border="1px solid #13D6C3"
+                          border-radius="50%" padding="10px" />
+            </mj-column>
+            <mj-column width="440px" background-color="#FFFFFF">
+                <mj-text color="#13D6C3" font-family="Trebuchet MS, Arial, sans-serif"
+                         font-weight="bold" font-size="18px">
+                    Очень понравился курс!
+                </mj-text>
+                <mj-text padding-bottom="40px" font-family="Trebuchet MS, Arial, sans-serif" font-size="18px"
+                         line-height="21px">
+                    Так как я уже имела дело с HTML и CSS,  то в принципе никаких трудностей у меня  не возникло.
+                    Хотелось бы просто указать маленький (почти незаметный минус, который не влияет на восприятие материала): в практических заданиях, как мне показалось будет засчитано задание, если все указал в верном порядке (в случае свойств это сделать все же ну очень сложно).
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section padding="0" background-color="#F6F6F6">
+            <mj-column width="100%" background-color="#FFFFFF">
+                <mj-text align="center">
+                    <a href="#"
+                       style="display: inline-block;background-color: #FF4B33; color: #FFFFFF;
+                       border-radius: 5px;
+                       padding:8px 17px; font-size: 18px; line-height: 21px; text-decoration:none; font-family:
+                       'Trebuchet MS',
+                       Arial, sans-serif;">Записаться на
+                        курс</a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section padding="0" background-color="#F6F6F6" padding-bottom="24px">
+            <mj-column>
+                <mj-text padding="0" align="center">
+                    <p class="margin-mobile" style="background-color: #FFFFFF; border-radius: 0 0 10px 10px"> </p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+
         <mj-section padding="0" background-color="#F6F6F6">
             <mj-column>
                 <mj-text padding="0" align="center">
-                <p class="margin-mobile" style="background-color: #FFFFFF; border-radius: 0 0 10px 10px"> </p>
+                    <p class="margin-mobile" style="background-color: #FFFFFF; border-radius: 10px 10px 0 0;margin: 0;"> </p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section padding="0">
+            <mj-column>
+                <mj-text align="center" padding="0">
+                    <h2 class="margin-mobile" style="background-color:#FFFFFF;margin: 0;">Популярные курсы</h2>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section padding="0" background-color="#F6F6F6">
+
+        </mj-section>
+        <mj-section padding="0" background-color="#FFFFFF">
+            <mj-column background-color="#FFFFFF" width="192px" padding-left="24px">
+                <mj-image src="img/icon-shield-1.png" width="48px"/>
+                <mj-text align="center" font-size="13px" line-height="15px"
+                         font-family="Trebuchet MS, Arial, sans-serif" font-weight="bold">
+                    Специалист
+                    по кибербезопасности <br><br>
+                </mj-text>
+                <mj-text align="center">
+                    <a href="#"
+                       style="display: inline-block;background-color: #FF4B33; color: #FFFFFF;
+                       border-radius: 5px;
+                       padding:8px 17px; font-size: 18px; line-height: 21px; text-decoration:none; font-family:
+                       'Trebuchet MS',
+                       Arial, sans-serif;">Записаться </a>
+                </mj-text>
+            </mj-column>
+            <mj-column background-color="#FFFFFF" width="184px">
+                <mj-image src="img/icon-shield-2.png" width="48px"/>
+                <mj-text align="center" font-size="13px" line-height="15px"
+                         font-family="Trebuchet MS, Arial, sans-serif" font-weight="bold">
+                    Профессия
+                    Data Scientist:
+                    анализ данных
+                </mj-text>
+                <mj-text align="center">
+                    <a href="#"
+                       style="display: inline-block;background-color: #FF4B33; color: #FFFFFF;
+                       border-radius: 5px;
+                       padding:8px 17px; font-size: 18px; line-height: 21px; text-decoration:none; font-family:
+                       'Trebuchet MS',
+                       Arial, sans-serif;">Записаться</a>
+                </mj-text>
+            </mj-column>
+            <mj-column background-color="#FFFFFF" width="192px">
+                <mj-image src="img/icon-shield-3.png" width="48px"/>
+                <mj-text align="center" font-size="13px" line-height="15px"
+                         font-family="Trebuchet MS, Arial, sans-serif" font-weight="bold">
+                    Профессия
+                    Разработчик игр
+                    на Unity с нуля
+                    до Middle
+                </mj-text>
+                <mj-text align="center">
+                    <a href="#"
+                       style="display: inline-block;background-color: #FF4B33; color: #FFFFFF;
+                       border-radius: 5px;
+                       padding:8px 17px; font-size: 18px; line-height: 21px; text-decoration:none; font-family:
+                       'Trebuchet MS',
+                       Arial, sans-serif;">Записаться</a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="#FFFFFF" padding="0">
+            <mj-column width="100%">
+                <mj-image src="img/feedback.png" width="300px" padding="0"/>
+                <mj-text align="center" padding-top="0">
+                    <a href="#"
+                       style="display: inline-block;background-color: #0B379B; color: #FFFFFF;
+                       border-radius: 5px;
+                       padding:8px 17px; font-size: 18px; line-height: 21px; text-decoration:none; font-family:
+                       'Trebuchet MS',
+                       Arial, sans-serif;">Все курсы</a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section padding="0">
+            <mj-column>
+                <mj-text align="center" padding="0">
+                    <h2 class="margin-mobile" style="background-color:#FFFFFF;margin: 0; padding-top: 48px;">Преимущества обучения у нас</h2>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="#FFFFFF">
+            <mj-column width="20%" background-color="#FFFFFF">
+                <mj-image src="img/icon1.png" width="40px" padding="0"/>
+            </mj-column>
+            <mj-column width="80%" background-color="#FFFFFF">
+                <mj-text padding-top="0" padding-bottom="0" font-weight="bold" font-size="18px" line-height="21px"
+                         font-family="Trebuchet MS, Arial, sans-serif">
+                    Более 30 курсов
+                </mj-text>
+                <mj-text padding-top="0" font-size="18px" line-height="21px"
+                         font-family="Trebuchet MS, Arial, sans-serif">
+                    Как для новичков, так и для практикующих разработчиков.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="#FFFFFF">
+            <mj-column width="20%" background-color="#FFFFFF">
+                <mj-image src="img/icon1.png" width="40px" padding="0"/>
+            </mj-column>
+            <mj-column width="80%" background-color="#FFFFFF">
+                <mj-text padding-top="0" padding-bottom="0" font-weight="bold" font-size="18px" line-height="21px"
+                         font-family="Trebuchet MS, Arial, sans-serif">
+                    Более 30 курсов
+                </mj-text>
+                <mj-text padding-top="0" font-size="18px" line-height="21px"
+                         font-family="Trebuchet MS, Arial, sans-serif">
+                    Как для новичков, так и для практикующих разработчиков.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="#FFFFFF">
+            <mj-column width="20%" background-color="#FFFFFF">
+                <mj-image src="img/icon1.png" width="40px" padding="0"/>
+            </mj-column>
+            <mj-column width="80%" background-color="#FFFFFF">
+                <mj-text padding-top="0" padding-bottom="0" font-weight="bold" font-size="18px" line-height="21px"
+                         font-family="Trebuchet MS, Arial, sans-serif">
+                    Более 30 курсов
+                </mj-text>
+                <mj-text padding-top="0" font-size="18px" line-height="21px"
+                         font-family="Trebuchet MS, Arial, sans-serif">
+                    Как для новичков, так и для практикующих разработчиков.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section width="568px" padding="0" background-color="#F6F6F6" padding-bottom="24px">
+            <mj-column>
+                <mj-text padding="0" align="center">
+                    <p style="background-color: #FFFFFF; border-radius: 0 0 10px 10px; margin: 0;"> </p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section width="568px" padding="0" background-color="#F6F6F6">
+            <mj-column>
+                <mj-text padding="0" align="center">
+                    <p style="background-color: #FFFFFF; border-radius: 10px 10px 0 0; margin: 0;"> </p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section padding-top="0" background-color="white">
+            <mj-column>
+                <mj-text font-size="18px" font-family="Trebuchet MS" font-weight="bold">
+                    Мы в социальных сетях
+                </mj-text>
+                <mj-social align="left" icon-size="24px" mode="horizontal">
+                    <mj-social-element name="fb" href="#" src="https://olovyannikov.github.io/play-html/dist/img/facebook.png">
+                    </mj-social-element>
+                    <mj-social-element name="ig" href="#" src="https://olovyannikov.github.io/play-html/dist/img/inst.png">
+                    </mj-social-element>
+                    <mj-social-element  name="youtube" href="#" src="https://olovyannikov.github.io/play-html/dist/img/youtube.png">
+                    </mj-social-element>
+                    <mj-social-element  name="telegram" href="#" src="https://olovyannikov.github.io/play-html/dist/img/telegram.png">
+                    </mj-social-element>
+                    <mj-social-element  name="vk" href="#" src="https://olovyannikov.github.io/play-html/dist/img/vk.png">
+                    </mj-social-element>
+                </mj-social>
+                <mj-text font-size="18px" font-family="Trebuchet MS" font-weight="bold">
+                    Свяжитесь с нами
+                    <a style="font-size: 14px;line-height: 16px; color: #13D6C3;font-family: Trebuchet MS; display:
+                    inline-block; padding-top: 8px;" href="#">study@htmlplay.com</a> <br>
+                    <a style="font-size: 14px;line-height: 16px; color: #13D6C3; font-family: Trebuchet MS; display:
+                    inline-block; padding-top: 8px;" href="#">8-800-690-76-68</a>
+                </mj-text>
+            </mj-column>
+            <mj-column>
+                <mj-text font-size="18px" font-family="Trebuchet MS" font-weight="bold">
+                    Полезные ссылки
+                    <br><a href="#" style="display: inline-block;
+                    padding-top: 16px;font-size: 14px;line-height: 16px;color: #141414;font-family: Trebuchet MS;
+                    padding-bottom: 8px;
+; font-weight: normal;"> Бесплатные вебинары</a> <br>
+                    <a href="https://olovyannikov.github.io/play-html/dist/promo.html"
+                       style="display: inline-block;font-size: 14px;line-height: 16px;color: #141414;font-family: Trebuchet MS;
+ padding-bottom: 8px; font-weight: normal;">Обучающие курсы</a> <br>
+                    <a href="#" style="display: inline-block;font-size: 14px;line-height: 16px;color: #141414;font-family: Trebuchet MS;
+ padding-bottom: 8px; font-weight: normal;">Тесты</a> <br>
+                    <a href="#" style="display: inline-block;font-size: 14px;line-height: 16px;color: #141414;font-family: Trebuchet MS;
+ padding-bottom: 8px; font-weight: normal;">Наш блог</a> <br>
+                    <a href="#" style="display: inline-block;font-size: 14px;line-height: 16px;color: #141414;font-family: Trebuchet MS;
+ padding-bottom: 8px; font-weight: normal;">Истории студентов</a> <br>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="#FFFFFF" padding="0">
+            <mj-column width="100%" padding="0">
+                <mj-divider border-width="1px" border-style="solid" border-color="lightgrey" />
+
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="#FFFFFF">
+            <mj-column>
+                <mj-text font-size="11px" font-family="Trebuchet MS" color="#828282" align="justify">
+                    Вы получили это письмо, так как являетесь пользователем портала HTMLPlay.
+                    Рассылка производится в соответствии с пользовательским соглашением.
+                    Если вы не хотите получать рассылку, вы можете <a style="color: #828282" href="#">отписаться</a>
+                    или <a style="color:#828282;"
+                           href="#">настроить параметры</a>. <br> <br>
+
+
+                    Если письмо отображается некорректно или вы хотите им поделиться, <a style="color: #828282"
+                                                                                         href="#">жмите
+                    сюда</a>.
+
                 </mj-text>
             </mj-column>
         </mj-section>
